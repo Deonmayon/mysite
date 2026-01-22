@@ -4,3 +4,7 @@ from django.shortcuts import render
 def home(request):
     # process the request and return a response
     return render(request, 'plus/home.html')
+
+
+def about(request):
+    return render(request, 'plus/about.html')
